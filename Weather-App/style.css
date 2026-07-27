@@ -1,0 +1,48 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#e6f2ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    width:400px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px gray;
+}
+
+h1{
+    color:purple;
+}
+
+input{
+    width:80%;
+    padding:10px;
+    font-size:16px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:purple;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkmagenta;
+}
+
+#result{
+    margin-top:20px;
+    color:darkblue;
+    font-size:22px;
+    font-weight:bold;
+}
