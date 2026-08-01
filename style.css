@@ -39,17 +39,18 @@ p{
 }
 
 button{
-    background:purple;
+    background: linear-gradient(45deg, purple, #7b2cbf);
     color:white;
     border:none;
     padding:12px 25px;
-    border-radius:8px;
+    border-radius:30px;
     cursor:pointer;
     font-size:16px;
+    transition:0.3s;
 }
 
 button:hover{
-    background:darkmagenta;
+    transform:scale(1.05);
 }
 
 .projects{
