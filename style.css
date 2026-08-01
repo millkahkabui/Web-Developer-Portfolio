@@ -125,3 +125,18 @@ button:hover{
     border-radius:20px;
     font-weight:bold;
 }
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero span{
+    color:purple;
+}
+
+.hero-text{
+    max-width:700px;
+    margin:20px auto;
+    font-size:20px;
+    line-height:1.8;
+}
